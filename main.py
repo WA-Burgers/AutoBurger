@@ -5,6 +5,7 @@ import time
 import os
 
 import discord
+from discord.ext import commands
 
 #I just imported stuff you big dum-dum
 
@@ -13,6 +14,9 @@ logging.basicConfig(level=logging.INFO)
 
 #Defining Discord Client
 client = discord.Client()
+
+#Defining Discord Commands
+
 
 #This prints a message in the console saying the bot is connected
 @client.event
