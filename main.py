@@ -1,11 +1,17 @@
 #main.py
 
-import discord
+import logging
 import time
 import os
 
+import discord
+
 #I just imported stuff you big dum-dum
 
+#logging setup
+logging.basicConfig(level=logging.INFO)
+
+#Defining Discord Client
 client = discord.Client()
 
 #This prints a message in the console saying the bot is connected
